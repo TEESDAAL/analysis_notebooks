@@ -19,7 +19,7 @@ def _():
 
 @app.cell
 def _():
-    file_path = '/home/pork/Documents/weewoo/weewoo-engine/scatter'
+    file_path = 'scatter'
 
     with open(file_path, 'r') as file:
         file_content = file.read()
